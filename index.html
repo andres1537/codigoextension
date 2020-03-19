@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Comfenalco Antioquia - Código Extensión</title>
+  <title>Comfenalco Antioquia - Contraseña de Extensión</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -12,21 +12,17 @@
   </style>
 </head>
 <body>
-	<div class="container text-center border border-light p-5">
+	<div class="container p-5">
 		<div class="row justify-content-md-center">
 			<div class="col-md-auto">
-			  <p class="h4 mb-4">Consulta Código de Extensión</p>
+			  <p class="h4 mb-4">Consulta Contraseña de Extensión</p>
 			  <div class="form-group">
 				<label for="formGroupExtension">Extensión:</label>
 				<input id="extension" type="text" class="form-control mb-4" id="formGroupExtension">
 			  </div>
 			  <div class="form-group">
-				<label for="formGroupCodigo">Extensión : Código</label>
-				<ul id="team-rbi" style="list-style-type:none">
-					<script id="team-rbi-template" type="text/x-handlebars-template">
-						<li>{{cells.extension}} : <strong>{{cells.codigo}}</strong></li>
-					</script>
-				</ul>
+				<label for="formGroupContrasena">Contraseña:</label>
+				<h1 id="result"></h1>
 			  </div>
 			  <input type="submit" class="btn btn-success btn-block" value="Consultar" onclick="return search();" />
 			</div>
@@ -37,7 +33,6 @@
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sheetrock/1.1.4/dist/sheetrock.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.5/handlebars.min.js"></script>
 	<script src="js/main.js"></script>
 </body>
 </html>
